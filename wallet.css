@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+:root{
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     box-sizing: border-box;
+overflow-x: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  padding :0;
+        margin :0;
+}
+
+
+
+a{
+    text-decoration: none;
+    display: block;
+    color: black ;
+}
+
+/* top */
+
+.top{
+    width: 100%;
+    height: 6rem ;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 75%, rgba(0,212,255,1) 100%);
+    position: relative; 
+}
+
+.top  img{
+    display: block;
+    width: 6rem;
+    position: absolute;
+    top:0;
+    left: 10vw;
+
+}
+
+
+.topinfo{
+    height: 18rem;
+    width: 18rem;
+    margin-bottom: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    padding: 0;
+}
+
+.topinfo img{
+    width: 16rem;
+}
+
+#atomicimg{
+    margin-top: 2rem;
+    width: 20rem;
+    margin-bottom: 3rem   
+}
+
+#binanceimg{
+    margin-top: 2rem;
+    width: 14rem;
+    margin-bottom: 3rem;
+}
+
+#exodusimg{
+    margin-top: 2rem;
+    width: 14rem;
+    margin-bottom: 3rem;
+}
+
+#coinbaseimg{
+    margin-top: .5rem;
+    width: 20rem;
+    margin-bottom: .5rem;
+}
+
+
+#cryptoimg{
+    margin-top: 2rem;
+    width: 14rem;
+    margin-bottom: 3rem;
+}
+
+#metamaskimg{
+    margin-top: 1rem;
+    width: 20rem;
+    margin-bottom: 2rem;   
+}
+
+#oxeximg{
+    margin-top: -4rem;
+    margin-bottom: -3rem ;
+}
+
+#safepalimg{
+    margin-top: 1rem;
+    width: 20rem;
+    margin-bottom: 1rem; 
+}
+
+#tokenimg{
+    margin-bottom: 1.5rem;
+}
+.topinfo  h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: -2rem;
+}
+
+
+.sync{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+   justify-content: center;
+}
+
+.option{
+    max-width: 20rem;
+    padding-right: 5rem;
+    transition: 1s all linear;
+}
+
+.option {
+    color: rgba(9,9,121,1);
+}
+
+.option p{
+    padding: 0.5rem ;
+    display: block;
+    width: 15rem ;
+    font-size: 1.5rem;
+    height: 4rem ;
+    font-weight: bold;
+    text-align: center;
+    line-height: 3rem;
+    cursor: pointer;
+}
+
+ .emphasis
+{
+    background-color: rgba(9,9,121,1);
+    color: white;
+    border-radius: .5rem;
+}
+
+.info{
+    max-width: 80rem;   
+    transition: 1s all linear;
+}
+
+.info   p{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.info   textarea{
+    display: block;
+    width: 50vw;
+    height: 13rem;
+    border-radius: .8rem;
+    border: 2px solid rgba(9,9,121,1) ;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.info   textarea:hover{
+    border-radius: .8rem;
+    border: 2px solid rgba(9,9,121,1) ;
+    padding: 1rem;   
+}
+
+.password{
+    display: block;
+    width: 50vw;
+    height: 2rem;
+    margin-top: 1rem;
+    border-radius: .8rem;
+    border: 2px solid rgba(9,9,121,1) ;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.password:hover{
+    height: 3rem;
+    border-radius: 1rem;
+    border: 2px solid rgba(9,9,121,1) ;
+    padding: 2rem; 
+}
+
+.password:focus{
+    height: 3rem;
+    border-radius: 1rem;
+    border: 2px solid rgba(9,9,121,1) ;
+    padding: 2rem; 
+}
+
+#submit{
+    margin-top: 1rem;
+    padding: .8rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: .9rem;
+    background-color: green;
+}
+
+
+.phrasekey{
+    display: block;
+}
+
+.JSON{
+    display: none;
+}
+
+.privatekey{
+   display: none;
+}
+
+
+/* 
+.btn{
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    padding: .8rem;
+    color: white;
+    background-color: rgb(5, 87, 5);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .5rem;
+} */
+
+
+
+
+
+/* mediaqueries */
+
+
+@media screen and (max-width:600px){
+
+    body{
+        padding: 0;
+        margin: 0rem;
+        box-sizing: border-box;
+overflow-x: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    }
+    .sync{
+        display: flex;
+        flex-direction: column;
+        padding: 4rem;
+       justify-content: flex-end;    }   
+
+    .option{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .info{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+.info textarea {
+     width : 80vw;
+      margin-left:auto;
+       margin-right:auto;
+} 
+    .phrase{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
+    }
+
+    .password{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
+    }
+    }
+
+   

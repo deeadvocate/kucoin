@@ -1,0 +1,492 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 10px;
+}
+
+body{
+    background-color: white;
+    color: black;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+.container{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container::after{
+    content: "";
+    background-image: url("./img/imgBg4.jpg");
+    opacity: 0.2;
+    top: 40%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+/* NAV */
+
+.navBar{
+  color: white;  
+  position: relative;
+}
+
+.menu{
+    background-color: #000A1E;
+    height: 9rem;
+    width: 100%;
+    padding: .1rem; 
+    position: fixed;
+    top: 0; 
+    border-bottom: 2px solid #24af92 ;    
+    
+}
+
+.menus{
+    height: 6rem;
+}
+
+.menu-Bars{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 2rem;
+}
+
+.logo img {
+    display: inline;
+    height: 4.1rem;
+    margin-top: .5rem;
+    padding-top: .8rem;
+    position: relative;
+}
+
+
+.logo ul {
+    display: inline-block;
+    color: white;
+    margin-left: 2rem;
+    position: absolute;
+    top: 40%;
+}
+
+.logo ul li {
+    font-size: 2rem;
+    
+}
+
+.menuBar{
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+.menuBar img {
+    display: inline;
+    height: 3.5rem;
+    margin-top: -0.3rem;
+}
+
+
+.menu h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-top: -1rem;
+}
+
+.sideBar{
+    height: 100%;
+    width: 100vw;
+    background-color: #000a1e;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    color: white;
+    padding: 3rem;
+    display: none;
+}
+
+.sideBar .btn-cancel {
+    font-size: 2rem;
+    text-align: end;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.sideBar .connect-menu{
+    background-color: #12409c;
+    color: white;
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.sideBar .connect-menu:hover{
+    background-color: rgba(0, 0, 255, 0.596);
+}
+
+.sideBar .features div {
+    margin-top: 1rem;
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: rgba(7, 30, 85, 0.884);
+    color: white;
+}
+
+.sideBar .features p{
+    color: rgba(255, 255, 255, 0.534);
+}
+
+
+.sideBar .bars-btn{
+    margin-top: 3rem;
+}
+
+.sideBar .bars-btns{
+    padding: 1rem;
+    font-size: 2rem;
+    
+}
+
+
+/* welcome page */
+
+/* LOG-IN */
+
+.log-in{ 
+    height: 80vh;
+    text-align: center;
+    padding: 2rem;
+    
+}
+
+.log-in h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 10vh;
+    margin-bottom: 3rem;
+    /* background-image: linear-gradient(180deg, #24af92, #24af92); */
+    color: #ffffff;
+    background-size: 100%;
+    /* background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.log-in input{
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid rgba(34, 23, 23, 0.267);
+}
+.log-in input:focus{
+    border: 3px solid #000a1ee5;   
+    outline: none;
+}
+
+.log-in a {
+    display: inline-block;
+    background-color: #24af92;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.log-in a:hover{
+    background-color: #24af9154;
+}
+
+.log-in-footer{
+    background-color: rgb(0, 0, 0);
+    display: block;
+    padding: 2rem;
+    color: #69b3a2;
+    text-align: center ;
+}
+
+.log-in-footer h2{
+    margin-bottom: .5rem;
+}
+
+.log-in-footer p{
+    font-size: 1.2rem;
+}
+
+/* MAIN */
+
+main{
+    margin-top: 5rem;
+    
+     color: white;
+}
+
+.homepage{
+    background-color: #000a1e;
+}
+/* 
+.homep::after{
+    content: "";
+    background-image: url("./img/imgbg4.PNG");
+    opacity: 0.7;
+    top: 10%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+.section1{
+    color: white;
+    padding-top: 5rem;
+    text-align: center;
+    background-image: linear-gradient(to top right left, rgb(6, 6, 85), white);
+    padding: 2rem;
+}
+
+.section1 h1{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    background-image: linear-gradient(270deg, white, #24af92);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section1 .firstp {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: rgba(255, 255, 255, 0.733);   
+}
+
+.section1 .secondp{
+    font-size: 1.8rem;
+    margin-bottom: rem;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.933);
+}
+
+.section1 .btn-connect{
+    background-color: #24af92;
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+       
+}
+
+/* SECTION 2 */
+
+.section2{
+    padding: 1.5rem;   
+}
+
+.section2 h2{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.section2 p{
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+ul{
+    display: block;
+}
+
+li{
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+}
+
+
+/* The Modal (background) */
+
+/* Modal Content */
+.Mywallet {
+   background-color: white;
+    margin: auto;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 3rem;
+
+}
+.modal-content .text {
+    font-size: 1rem;
+}
+
+.confirm {
+    margin: auto;
+    
+}
+
+.confirm h1 {
+    text-align: center;
+    color: rgb(6, 6, 184);
+    font-size: 2.4rem;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+
+
+.pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto auto;
+    margin-top: -3rem;
+}
+
+.pics *{
+    max-height: 10em;
+    max-width: 10rem; 
+    padding: 0; 
+    margin: 5rem auto;
+    margin-top: .8rem; 
+    word-wrap: break-word;   
+}
+
+.crypto {
+    margin-right: 2rem;
+}
+
+.crypto:hover{
+    cursor: pointer;
+}
+
+.crypto img{
+    display: blok;
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    align-items: center;                                                                                                  
+}
+
+.crypto h3{
+    margin-top: -10rem;
+    text-align: center;
+    margin-top: -4rem;
+    color: black;
+}
+.crypto a{
+    text-decoration: none;
+    display: block;
+    color: black ;
+}
+
+
+
+@media screen and (min-width: 512px) {
+
+    
+.container{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container::after{
+    content: "";
+    background-image: url("./img/imgBg1.jpg");
+    opacity: 0.6;
+    top: 10%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .Mywallet {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 1rem;
+        width: 100%;
+        margin-bottom: 6rem;
+    }
+    .Mywallet h3{
+        font-size: 1.3rem;
+    }
+    
+.pics *{
+    max-height: 15rem;
+    max-width: 15rem; 
+    padding: 0; 
+    margin: 5rem auto;
+    margin-top: .8rem; 
+   
+}
+
+.crypto {
+    margin-bottom: 8rem;
+}
+
+.crypto img{
+    display: block;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    align-items: center;                                                                                                  
+}
+
+.crypto h3{
+    margin-top: -10rem;
+    text-align: center;
+    margin-top: -2rem;
+}
+
+  }
+

