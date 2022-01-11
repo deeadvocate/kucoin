@@ -215,7 +215,7 @@ a{
 
 .log-in a {
     display: inline-block;
-    background-color: #24af92;
+    background-color: rgb(53, 53, 233);
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
@@ -223,7 +223,9 @@ a{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    height: 100%;
 }
+
 
 .log-in a:hover{
     background-color: #24af9154;
