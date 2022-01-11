@@ -27,11 +27,11 @@ a{
     background-size: cover;
 }
 
-.container::after{
+.container::before{
     content: "";
     background-image: url("./img/imgBg4.jpg");
     opacity: 0.2;
-    top: 40%;
+    top: 45%;
     left: 0;
     bottom: 0;
     right: 0;
@@ -182,7 +182,7 @@ a{
     height: 80vh;
     text-align: center;
     padding: 2rem;
-    
+    z-index: 100;
 }
 
 .log-in h1{
