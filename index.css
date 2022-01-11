@@ -213,9 +213,9 @@ a{
     outline: none;
 }
 
-.log-in a {
+.log-in button {
     display: inline-block;
-    background-color: rgb(53, 53, 233);
+    background-color: #24af91;
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
@@ -227,7 +227,7 @@ a{
 }
 
 
-.log-in a:hover{
+.log-in button:hover{
     background-color: #24af9154;
 }
 
